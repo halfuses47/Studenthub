@@ -4,11 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Timetable</h1>
-    <table border="1">
-        
+    <div class="main-container">
+        <header>
+            <h1>Student Hub</h1>
+        </header>
+
+        <main>
+            <nav>
+                <a href="dashboard.html">Dashboard</a>
+                <a href="profile.html">Profile</a>
+                <a href="attendance.html">Attendance</a>
+                <a href="event-details.html">Event Details</a>
+                <a href="result.html">Result</a>
+                <a href="timetable.html">Timetable</a>
+                <a href="contact_us.html">Contact Us</a>
+                <a href="fee.html">Fee structure</a>
+            </nav>
+
+            <section>
+                <h1>Timetable</h1>
+                <div class="table-scroll">
+                    <table class="timetable-table">
+            
             <tr>
                 <th colspan="9">Time Table</th>
             </tr>
@@ -319,6 +339,13 @@
                <td rowspan="4" colspan="2" align="center">University Elective</td> 
                  
             </tr>    
-    </table>
+                    </table>
+                </div>
+            <a href="dashboard.html">
+                <button class="return-btn">Return</button>
+            </a>
+            </section>
+        </main>
+    </div>
 </body>
 </html>

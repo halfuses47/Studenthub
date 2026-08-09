@@ -6,31 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Student Hub</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
     <!-- Main Page Container -->
-    <div style="
-        border: 1px solid;
-        width: 95%;
-        min-height: 620px;
-        margin: 10px auto;
-        padding: 10px;
-    ">
+    <div class="main-container">
 
 
         <!-- Header -->
-        <header style="
-            border: 1px solid;
-            border-radius: 15px;
-            width: 90%;
-            height: 72px;
-            margin: 15px auto;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        ">
+        <header>
 
             <h1>
                 Student Hub
@@ -40,156 +26,141 @@
 
 
         <!-- Main Content -->
-        <main style="
-            display: flex;
-            gap: 48px;
-            margin: 15px 20px;
-        ">
+        <main>
             <!-- Side Navigation Panel -->
-            <nav style="
-                border: 1px solid;
-                border-radius: 17px;
-                width: 100px;
-                min-height: 360px;
-                padding: 20px 0;
-                text-align: center;
-            ">
+            <nav>
 
+                <a href="dashboard.html">Dashboard</a>
+               
 
                 <a href="profile.html">
                     Profile
                 </a>
 
-                <br><br><br>
+                
 
 
                 <a href="attendance.html">
                     Attendance
                 </a>
 
-                <br><br><br>
+                
 
 
                 <a href="event-details.html">
                     Event Details
                 </a>
 
-                <br><br><br>
+               
 
 
                 <a href="result.html">
                     Result
                 </a>
 
-                <br><br><br>
+              
 
 
                 <a href="timetable.html">
                     Timetable
                 </a>
 
-                <br><br><br>
+               
 
 
                 <a href="contact_us.html">
                     Contact Us
                 </a>
-                <br><br><br>
+                
 
 
                 <a href="fee.html">
-                 Fee structure
+                    Fee structure
                 </a>
 
             </nav>
+
 
 
             <!-- Main Page Content -->
             <section>
 
                 <!-- Home Button -->
-                <button style="
-                    width: 100px;
-                    height: 50px;
-                    border: 1px solid;
-                    border-radius: 8px;
-                ">Attendance
-
-                </button>
+                <button class="button-primary">Attendance</button>
 
 
                 <!-- Photo / Main Content Box -->
-                <center>
+                <div class="center-content">
 
-<h1>CHARUSAT</h1>
-<h2>Charotar University of Science and Technology</h2>
-<h3>Faculty of Technology & Engineering</h3>
-<h3>Student Attendance</h3>
+                    <h1>CHARUSAT</h1>
+                    <h2>Charotar University of Science and Technology</h2>
+                    <h3>Faculty of Technology & Engineering</h3>
+                    <h3>Student Attendance</h3>
 
-<table border="2" cellpadding="10" cellspacing="0">
+                    <table cellpadding="10" cellspacing="0">
 
 
-<tr>
-    <td><b>Semester</b></td>
-    <td>3</td>
-</tr>
+                        <tr>
+                            <td><b>Semester</b></td>
+                            <td>3</td>
+                        </tr>
 
-</table>
+                    </table>
 
-<br>
+                    <br>
 
-<table border="2" cellpadding="10" cellspacing="0">
+                    <table cellpadding="10" cellspacing="0">
 
-<tr>
-    <th>Subject Code</th>
-    <th>Subject Name</th>
-    <th>Attendance</th>
-</tr>
+                        <tr>
+                            <th>Subject Code</th>
+                            <th>Subject Name</th>
+                            <th>Attendance</th>
+                        </tr>
 
-<tr>
-    <td>CSUC201</td>
-    <td>Fundamentals of Data Structures & Algorithms</td>
-    <td>95%</td>
-</tr>
+                        <tr>
+                            <td>CSUC201</td>
+                            <td>Fundamentals of Data Structures & Algorithms</td>
+                            <td>95%</td>
+                        </tr>
 
-<tr>
-    <td>ITUC201</td>
-    <td>Fundamentals of Computer Networks</td>
-    <td>90%</td>
-</tr>
+                        <tr>
+                            <td>ITUC201</td>
+                            <td>Fundamentals of Computer Networks</td>
+                            <td>90%</td>
+                        </tr>
 
-<tr>
-    <td>CEUE203</td>
-    <td>Object Oriented Programming</td>
-    <td>94%</td>
-</tr>
+                        <tr>
+                            <td>CEUE203</td>
+                            <td>Object Oriented Programming</td>
+                            <td>94%</td>
+                        </tr>
 
-<tr>
-    <td>ITUE203</td>
-    <td>Web Development Framework</td>
-    <td>90%</td>
-</tr>
+                        <tr>
+                            <td>ITUE203</td>
+                            <td>Web Development Framework</td>
+                            <td>90%</td>
+                        </tr>
 
-<tr>
-    <td>MSUD203</td>
-    <td>Discrete Mathematics</td>
-    <td>87%</td>
-</tr>
+                        <tr>
+                            <td>MSUD203</td>
+                            <td>Discrete Mathematics</td>
+                            <td>87%</td>
+                        </tr>
 
-<tr>
-    <th colspan="2">Overall Attendance</th>
-    <th>90%</th>
-</tr>
+                        <tr>
+                            <th colspan="2">Overall Attendance</th>
+                            <th>90%</th>
+                        </tr>
 
-</table>
+                    </table>
 
-<br><br>
+                    <br><br>
 
-<a href="home.html">
-    <button>Return</button>
-</a>
+                    <a href="home.html">
+                        <button class="return-btn">Return</button>
+                    </a>
 
-</center>
+                </div>
 
             </section>
 

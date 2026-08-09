@@ -4,33 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="stylesheet" href="styles.css">
     <title>Student Hub</title>
 </head>
-
+ 
 <body>
 
     <!-- Main Page Container -->
-    <div style="
-        border: 1px solid;
-        width: 95%;
-        min-height: 620px;
-        margin: 10px auto;
-        padding: 10px;
-    ">
-
-
+    <div class="main-container">
         <!-- Header -->
-        <header style="
-            border: 1px solid;
-            border-radius: 15px;
-            width: 90%;
-            height: 72px;
-            margin: 15px auto;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        ">
+        <header>
 
             <h1>
                 Student Hub
@@ -40,61 +23,46 @@
 
 
         <!-- Main Content -->
-        <main style="
-            display: flex;
-            gap: 48px;
-            margin: 15px 20px;
-        ">
+        <main>
             <!-- Side Navigation Panel -->
-            <nav style="
-                border: 1px solid;
-                border-radius: 17px;
-                width: 100px;
-                min-height: 360px;
-                padding: 20px 0;
-                text-align: center;
-            ">
-
+            <nav>
+                <a href="dashboard.html">Dashboard</a>
 
                 <a href="profile.html">
                     Profile
                 </a>
 
-                <br><br><br>
 
 
                 <a href="attendance.html">
                     Attendance
                 </a>
 
-                <br><br><br>
 
 
                 <a href="event-details.html">
                     Event Details
                 </a>
 
-                <br><br><br>
+            
 
 
                 <a href="result.html">
                     Result
                 </a>
 
-                <br><br><br>
 
 
                 <a href="timetable.html">
                     Timetable
                 </a>
 
-                <br><br><br>
 
 
                 <a href="contact_us.html">
                     Contact Us
                 </a>
-                <br><br><br>
+                
 
 
                 <a href="fee.html">
@@ -108,12 +76,7 @@
             <section>
 
                 <!-- Home Button -->
-                <button style="
-                    width: 100px;
-                    height: 50px;
-                    border: 1px solid;
-                    border-radius: 8px;
-                ">
+                <button class="button-primary" type="button">
                     Event Detaiils
 
                 </button>
@@ -122,7 +85,7 @@
                 <!-- Photo / Main Content Box -->
                 <h2 align="center">Department Event Details</h2>
 
-<table border="1" cellspacing="0" cellpadding="8" align="center">
+<table cellspacing="0" cellpadding="8" align="center">
 
     <tr>
         <th>Event Name</th>
